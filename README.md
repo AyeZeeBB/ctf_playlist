@@ -24,27 +24,18 @@
 				max_players                                    18
 				min_players                                    1
 
+				// General Settings:
 				survival_shields                               1
 				skydive_ziplines_enabled                       0
-
-				//CTF Settings
-				survival_jumpkit_enabled                       1
-				survival_wallrun_enabled                       1
 				survival_infinite_ammo                         1
 				survival_custom_deploy                         1
-				default_shield_hp                              75
 				ground_loot_enable                             0
 				lootbin_loot_enable                            0
-
-				waiting_for_players_has_black_screen 0
-				waiting_for_players_countdown_seconds 0
-				survival_commentary_kill_leader_enabled 0
-				survival_commentary_first_blood_enabled 0
-				bloodhound_bird_cluster 0
-
-				//CTF Score And Round time
-				max_score				       5
-				round_time				       1500
+				waiting_for_players_has_black_screen           0
+				waiting_for_players_countdown_seconds          0
+				survival_commentary_kill_leader_enabled        0
+				survival_commentary_first_blood_enabled        0
+				bloodhound_bird_cluster                        0
 
 				// Intro Settings:
 				character_select_time_min                      0
@@ -57,8 +48,18 @@
 				match_ending_enabled                           0
 				sur_circle_start_paused                        1
 
-				//Respawn Classes
-				//Uses the exact same format as custom_tdm
+				// CTF Settings:
+				//// General CTF Settings:
+				survival_jumpkit_enabled                       1    //Enables double jump
+				survival_wallrun_enabled                       1    //Enables wallrun
+				default_shield_hp                              75   //Sets Sheilds
+				give_ult_after_capture                         1    //Fills up ult after capture
+
+				////CTF Score And Round time:
+				max_score				                       5    //Set max amount of flag captures
+				round_time				                       1500 //Sets time limit for rounds
+
+				////Respawn Classes: Uses the exact same format as custom_tdm
 				//Class 1
 				ctf_respawn_class1_name                        "Close-Quarters"
 				ctf_respawn_class1_primary                     "mp_weapon_r97 optic_cq_hcog_classic barrel_stabilizer_l4_flash_hider stock_tactical_l3 bullets_mag_l3"
@@ -89,8 +90,7 @@
 				ctf_respawn_class5_secondary                   "mp_weapon_shotgun optic_cq_hcog_classic shotgun_bolt_l3"
 				ctf_respawn_class5_tactical                    "mp_ability_grapple"
 				ctf_respawn_class5_ultimate                    "mp_weapon_jump_pad"
-
-
+				//End of CTF Settings
 			}
 			gamemodes { custom_ctf { maps {
 				mp_rr_canyonlands_64k_x_64k                    1
