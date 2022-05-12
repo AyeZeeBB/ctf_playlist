@@ -1,4 +1,4 @@
-# ctf checksum: 144466720
+# ctf checksum: -1302836445
 # ctf_playlist
 
 ```
@@ -55,6 +55,7 @@
 				default_shield_hp                              75   //Sets Sheilds
 				give_ult_after_capture                         1    //Fills up ult after capture
 				use_legend_abilitys                            0    //Uses Legends defualt abilitys instead of classes
+				respawn_timer                                  10   //Amount of seconds it takes to repsawn
 
 				////CTF Score And Round time:
 				max_score				                       5    //Set max amount of flag captures
