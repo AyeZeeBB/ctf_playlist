@@ -1,4 +1,4 @@
-# ctf checksum: 721814833
+# ctf checksum: -516832666
 # ctf_playlist
 
 ```
@@ -54,6 +54,7 @@
 				survival_wallrun_enabled                       1    //Enables wallrun
 				default_shield_hp                              75   //Sets Sheilds
 				give_ult_after_capture                         1    //Fills up ult after capture
+				use_legend_abilitys                            0    //Uses Legends defualt abilitys instead of classes
 
 				////CTF Score And Round time:
 				max_score				                       5    //Set max amount of flag captures
