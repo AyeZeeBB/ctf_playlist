@@ -56,6 +56,8 @@
 				give_ult_after_capture                         1    //Fills up ult after capture
 				use_legend_abilitys                            0    //Uses Legends defualt abilitys instead of classes
 				respawn_timer                                  10   //Amount of seconds it takes to repsawn
+				take_weapons_from_flag_carrier                 0    //Takes weapons from flag carrier and gives a dataknife that does 75 damage
+				give_flag_carrier_speed_boost                  0    //Gives the flag carrier a speed boost when holding the flag
 
 				////CTF Score And Round time:
 				max_score				                       5    //Set max amount of flag captures
