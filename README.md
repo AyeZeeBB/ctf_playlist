@@ -1,4 +1,4 @@
-# ctf checksum: -1302836445
+# ctf checksum: -790648948
 # ctf_playlist
 
 ```
@@ -31,11 +31,14 @@
 				survival_custom_deploy                         1
 				ground_loot_enable                             0
 				lootbin_loot_enable                            0
+				loot_ticks_enabled							   0
 				waiting_for_players_has_black_screen           0
 				waiting_for_players_countdown_seconds          0
 				survival_commentary_kill_leader_enabled        0
 				survival_commentary_first_blood_enabled        0
 				bloodhound_bird_cluster                        0
+				survival_force_sliding_doors				   1
+				enableFlyers                                   0
 
 				// Intro Settings:
 				character_select_time_min                      0
@@ -50,6 +53,7 @@
 
 				// CTF Settings:
 				//// General CTF Settings:
+				teammate_huds_enabled                          0	//Enables teammate huds
 				survival_jumpkit_enabled                       1    //Enables double jump
 				survival_wallrun_enabled                       1    //Enables wallrun
 				default_shield_hp                              75   //Sets Sheilds
@@ -58,13 +62,12 @@
 				respawn_timer                                  10   //Amount of seconds it takes to repsawn
 				take_weapons_from_flag_carrier                 0    //Takes weapons from flag carrier and gives a dataknife that does 75 damage
 				give_flag_carrier_speed_boost                  0    //Gives the flag carrier a speed boost when holding the flag
-				spectator_admins                               "ChiefEngineerZee Lapaxxax"
 
 				////CTF Score And Round time:
 				max_score				                       5    //Set max amount of flag captures
-				round_time				                       1500 //Sets time limit for rounds
+				round_time				                       30 	//Sets time limit for rounds in minutes
 
-				////Respawn Classes: Uses the exact same format as custom_tdm
+				////Respawn Classes: Weapons and Abilitys use the exact same format as custom_tdm
 				//Class 1
 				ctf_respawn_class1_name                        "Close-Quarters"
 				ctf_respawn_class1_primary                     "mp_weapon_r97 optic_cq_hcog_classic barrel_stabilizer_l4_flash_hider stock_tactical_l3 bullets_mag_l3"
@@ -105,6 +108,7 @@
 				mp_rr_canyonlands_mu1_night                    1
 				mp_rr_canyonlands_staging                      1
 				mp_rr_aqueduct								   1
+				mp_rr_ashs_redemption                          1
 			} } }
 		}
 ```
